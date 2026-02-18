@@ -3,6 +3,6 @@
   и их переопределение под различные устройства
 */
 :root {
-  --background-image: url(../images/cover-image-dark.png);
-  --background-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
 }
