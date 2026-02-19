@@ -5,4 +5,14 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
+  --font-family: 'IBM Plex mono', 'Open Sans', 'Arial', sans-serif;
+  --accent-color: #FF0070;
+  --header-title-text: #DB00FF;
+  --section-title-decor-clr: #000028;
+  --section-title-decor-bg-clr: #FF0070;
+  --button-color-text: #FF0070;
+  --button-border: #FF0070;
+  --button-border-hover: #FF007066;
+  --decor-color: #FF0070;
+  --decor-gap: 10px;
 }

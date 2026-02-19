@@ -8,6 +8,14 @@
   :root {
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #FFF1F7;
+    --header-title-text: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --section-title-decor-clr: #353430;
+    --section-title-decor-bg-clr: #FF8DCB;
+    --button-color-text: #353430;
+    --button-border: #353430;
+    --button-border-hover: #35343066;
+    --decor-color: #353430;
   }
 }
 
@@ -18,4 +26,12 @@
   */
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
+  --header-title-text: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --section-title-decor-clr: #353430;
+  --section-title-decor-bg-clr: #FF8DCB; 
+  --button-color-text: #353430;
+  --button-border: #353430;
+  --button-border-hover: #35343066;
+  --decor-color: #353430;
 }
