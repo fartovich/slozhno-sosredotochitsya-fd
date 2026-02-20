@@ -46,7 +46,7 @@
   min-block-size: 668px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  padding: 10px;
+  padding: var(--decor-content-pdg);
 }
 
 /* REC с красной точкой */
@@ -140,6 +140,26 @@
 
 .title-text-bold {
   font-weight: 700;
+}
+
+/* ПОДВАЛ */
+.footer {
+  block-size: 100vh;
+  min-block-size: 668px;
+  display: grid;
+  padding: var(--decor-content-pdg);
+  align-items: center;
+  justify-items: center;
+}
+
+/* заголовок подвала */
+.footer__title {
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 0.83;
+  color: var(--header-title-text);
+  text-shadow: 2px 2px 0 var(--accent-color);
+  text-transform: lowercase;
 }
 
 /* Планшет: 768–1023 */
