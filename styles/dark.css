@@ -9,14 +9,14 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url(../images/cover-image-dark.png);
-  --bg-color: #000028;
-  --header-title-text: #DB00FF;
-  --accent-color: #FF0070;
-  --section-title-decor-clr: #000028;
-  --section-title-decor-bg-clr: #FF0070;
-  --button-color-text: #FF0070;
-  --button-border: #FF0070;
-  --button-border-hover: #FF007066;
-  --decor-color: #FF0070;
+  --bg-color: #000028; /* цвет фона */
+  --bg-image: url(../images/cover-image-dark.png); /* картинка с фоном */
+  --decor-color: #ff0070; /* цвет декоративных уголков, надписи REC и точки */
+  --button-color-txt-brd: #ff0070; /* цвет текста кнопок и рамки */
+  --button-border-hover: #ff007066; /* цвет рамки кнопки при наведении */
+  --section-title-decor-clr: #000028; /* цвет текста под заголовком в шапке и заголовков основного контента */
+  --section-title-decor-bg-clr: #ff0070; /* цвет фона под заголовком в шапке и заголовков основного контента */
+  --header-title-text: #db00ff; /* цвет заголовка в шапке */
+  --accent-color: #ff0070; /* цвет тени заголовка в шапке */
+  --text-color: #f1b2ce; /* цвет текста основного контента */
 }
