@@ -98,13 +98,12 @@
 }
 
 .header__theme-menu-button_active {
-  border-block: 1px solid var(--button-color-txt-brd);
-  border-inline: 1px solid var(--button-color-txt-brd);
+  border: 1px solid var(--button-color-txt-brd);
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
-  border-block: 1px solid var(--button-border-hover);
-  border-inline: 1px solid var(--button-border-hover);
+  border: 1px solid var(--button-border-hover);
 }
 
 .header__theme-menu-button:focus {
@@ -243,10 +242,23 @@
 
 /* Планшет: 768–1023 */
 @media (width >= 768px) {
+  :root {
+    --decor-content-pdg: 20px;
+    --content-section-gap: 80px;
+  }
 
+  .header__title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-inline-start: -20px;
+  }
+
+  .header__text {
+    max-inline-size: 364px;
+    justify-self: end;
+  }
 }
 
 /* Десктоп: 1024+ */
 @media (width >= 1024px) {
-
+  
 }
