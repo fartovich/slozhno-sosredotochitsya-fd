@@ -111,9 +111,8 @@
   outline: none;
 }
 
-.header__theme-menu-button:focus {
-  outline: none;
-  border-block-end: 1px solid var(--button-border);
+.header__theme-menu-button:focus-visible {
+  border-block-end: 1px solid var(--button-color-txt-brd);
 }
 
 /* заголовок no focus */
@@ -175,6 +174,26 @@
 .content__card-text {
   font-size: inherit;
   line-height: inherit;
+}
+
+.content__card-text-link {
+  font-size: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.content__card-text-link:hover {
+  border-block-end: 1px solid var(--text-color);
+}
+
+.content__card-text-link:focus {
+  outline: none;
+}
+
+.content__card-text-link:focus-visible {
+  outline: 1px solid var(--text-color);
+  outline-offset: 2px;
 }
 
 /* ПОДВАЛ */
