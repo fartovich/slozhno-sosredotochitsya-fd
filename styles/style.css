@@ -158,7 +158,21 @@
   color: var(--section-title-decor-bg-clr);
 }
 
+.content__card {
+  display: grid;
+  gap: 10px;
+}
+
 .content__card-title {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.content__card-title-weight {
+  font-weight: 400;
+}
+
+.content__card-text {
   font-size: inherit;
   line-height: inherit;
 }
