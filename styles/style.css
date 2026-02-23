@@ -160,6 +160,11 @@
   color: var(--decor-color);
 }
 
+.content__container-grid {
+  display: grid;
+  gap: 20px;
+}
+
 /* сетка карточки внутри секции */
 .content__card {
   display: grid;
@@ -213,6 +218,11 @@
 .gallery__title {
   font-size: inherit;
   line-height: inherit;
+}
+
+.gallery__container-grid {
+  display: grid;
+  gap: 10px;
 }
 
 .gallery__image {
