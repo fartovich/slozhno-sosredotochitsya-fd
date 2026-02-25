@@ -139,7 +139,7 @@
 }
 
 /* ОСНОВНОЙ контент */
-/* сетка шапки */
+/* сетка контента */
 .content {
   padding: 40px var(--decor-content-pdg);
   display: grid;
@@ -257,11 +257,6 @@
 
 /* Планшет: 768–1023 */
 @media (width >= 768px) {
-  :root {
-    --decor-content-pdg: 20px;
-    --content-section-gap: 80px;
-  }
-
   /* заголовок no focus */
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);

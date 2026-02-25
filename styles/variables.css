@@ -19,3 +19,10 @@
   --decor-content-pdg: 10px; /* внутренний отступ на странице */
   --content-section-gap: 50px; /* отступ между секциями основного контента */
 }
+
+@media (width >= 768px) {
+  :root {
+    --decor-content-pdg: 20px;
+    --content-section-gap: 80px;
+  }
+}
